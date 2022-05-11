@@ -1,0 +1,110 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-01{
+    background-color: #24AAE1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: white;
+    margin-right: 100px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items:center ;
+    justify-content: space-between;
+}
+.menu-bar li{
+    border-bottom: 3px solid #24AAE1;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.banner-section{
+    margin: 50px 10%;
+    
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.btn-02{
+    background-color: #24AAE1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: white;
+    margin-right: 20px;
+}.btn-03{
+    background-color:white;
+    padding: 10px 20px;
+    border: 2px solid #24AAE1;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #24AAE1;
+   
+}
+.banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text h1{
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 5px;
+}
+.banner-img img {
+    height:400px;
+    width: 500px;
+
+}
+.banner-show{
+    background-color: #f1f5f7;
+    padding-bottom:20px ;
+    padding-top: 1px;
+}
+.banner-img{
+    display:flex ;
+
+
+}
+.banner-show img {
+    width: 450px;
+    height: 250px;
+}
+.banner-show2{
+    margin-left: 210px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-show h2{
+    margin-left: 760px;
+    border-bottom: 5px solid #3ca2ca;
+    margin-right: 873px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.banner-show2-gap{
+    margin-right: 15px;
+}
