@@ -74,12 +74,15 @@ nav ul{
 .banner-img img {
     height:400px;
     width: 500px;
+    margin-left: 100px;
 
 }
 .banner-show{
     background-color: #f1f5f7;
-    padding-bottom:20px ;
+    padding-bottom:60px ;
     padding-top: 1px;
+    
+
 }
 .banner-img{
     display:flex ;
@@ -89,22 +92,81 @@ nav ul{
 .banner-show img {
     width: 450px;
     height: 250px;
+    box-shadow: 2px 2px 15px #24AAE1
 }
 .banner-show2{
     margin-left: 210px;
     justify-content: center;
     align-items: center;
 }
-.banner-show h2{
-    margin-left: 760px;
+.banner-show h4{
+    margin-left: 802px;
     border-bottom: 5px solid #3ca2ca;
-    margin-right: 873px;
+    margin-right: 850px;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
+    font-weight: 700;
 }
 .banner-show2-gap{
     margin-right: 15px;
 }
+.reach-section{
+    padding: 30px 15%;
+}
+.reach-content{
+    width: 1000px;
+    height: 400px;
+    background-image: url("abc.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    box-shadow: 10px 10px 60px #24AAE1
+    
+}
+.reach-content h4 {
+    color: #bd2121;
+}
+.reach-inner{
+ text-align: center;
+}
+.card-section{
+    padding: 10px 10%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.ab{
+    background-color: #54accf;
+}
+.card-section img {
+    width: 100%;
+    height: 150px; 
+}
+.card{
+    box-shadow: 2px 2px 15px #000000;
+    margin: 50px; 
+    
+}
+.paragraph-padding{
+    padding: 10px;
+}
+.test{
+    height:400px;
+    border: 2px solid red;
+    
+}
+
+
+
+
+
+   
+    
